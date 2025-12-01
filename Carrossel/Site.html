@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MercosulTV conteúdo</title>
+    <link rel="stylesheet" href="style-site.css">
+</head>
+<body>
+
+    <header>
+        <div class="menu-icon">
+            <img src="imagens e audio/2319181.png" alt="Menu" width="30" height="25">
+            <div class="dropdown-menu">
+                <a href="index.html">Início</a>
+                <a href="site.html">Conteúdos</a>
+            </div>
+        </div>
+        <img class="logo" src="imagens e audio/Logo mercosultv.png" alt="Logo MercosulTV" width="50" height="58"> 
+        <h4>Conteúdos</h4>
+        <h1>MercosulTV</h1>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <div class="content">
+        <h2>Conteúdos por País</h2>
+        <h3>Explore o melhor de cada nação do Mercosul!</h3>
+        
+        <!-- Carrossel de Conteúdos por País -->
+        <div class="carousel-container">
+            <div class="carousel-slides">
+                <!-- Brasil -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-wrapper">
+                        <img src="imagens e audio/brasileirao.jpg" alt="Brasileirão - Brasil">
+                        <div class="carousel-overlay">
+                            <div class="country-flag">🇧🇷</div>
+                            <h2>BRASIL</h2>
+                            <h3>Brasileirão Série A</h3>
+                            <p>Acompanhe todos os jogos do campeonato brasileiro ao vivo</p>
+                            <div class="content-tags">
+                                <span class="tag">⚽ Futebol</span>
+                                <span class="tag">🏆 Ao Vivo</span>
+                                <span class="tag">🎯 HD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Argentina -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-wrapper">
+                        <img src="imagens e audio/boca-river.jpg" alt="Superclásico - Argentina">
+                        <div class="carousel-overlay">
+                            <div class="country-flag">🇦🇷</div>
+                            <h2>ARGENTINA</h2>
+                            <h3>Boca vs River - Superclásico</h3>
+                            <p>O maior clássico do futebol argentino em alta definição</p>
+                            <div class="content-tags">
+                                <span class="tag">⚽ Clássico</span>
+                                <span class="tag">🔥 Emoção</span>
+                                <span class="tag">📺 Ao Vivo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chile -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-wrapper">
+                        <img src="imagens e audio/filmes-chilenos.jpg" alt="Cinema Chileno">
+                        <div class="carousel-overlay">
+                            <div class="country-flag">🇨🇱</div>
+                            <h2>CHILE</h2>
+                            <h3>Cinema e Séries Chilenas</h3>
+                            <p>Filmes premiados e produções exclusivas do Chile</p>
+                            <div class="content-tags">
+                                <span class="tag">🎬 Filmes</span>
+                                <span class="tag">📺 Séries</span>
+                                <span class="tag">🏆 Premiados</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Uruguai -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-wrapper">
+                        <img src="imagens e audio/sociedade-neve.jpg" alt="Sociedade da Neve - Uruguai">
+                        <div class="carousel-overlay">
+                            <div class="country-flag">🇺🇾</div>
+                            <h2>URUGUAI</h2>
+                            <h3>A Sociedade da Neve</h3>
+                            <p>Filme uruguaio indicado ao Oscar - Melhor Filme Internacional</p>
+                            <div class="content-tags">
+                                <span class="tag">🎬 Cinema</span>
+                                <span class="tag">🏆 Oscar</span>
+                                <span class="tag">⭐ Premiado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-btn prev">&#10094;</button>
+            <button class="carousel-btn next">&#10095;</button>
+            
+            <div class="carousel-indicators"></div>
+        </div>
+        
+        <p>Descubra a riqueza cultural de cada país do Mercosul através de nossos conteúdos exclusivos!</p>
+        
+        <h3>Se inscreva para receber novidades!</h3>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            
+            <label for="email">E-mail:</label>
+            <textarea id="email" name="email" placeholder="Digite seu e-mail"></textarea>
+            
+            <input type="button" value="Enviar">
+        </form>
+    </div>
+    
+    <div class="footer">
+        <footer>
+            <a href="index.html" target="_self" title="Início"><em>Acessar página inicial</em></a>
+            <div class="flags">
+                <img src="imagens e audio/Flag_of_Brazil.svg.webp" alt="Bandeira do Brasil" width="70" height="45">
+                <img src="imagens e audio/Flag_of_Argentina.svg.png" alt="Bandeira da Argentina" width="70" height="45">
+                <img src="imagens e audio/bandeira-do-uruguai-bandeira-do-uruguai-ilustracao-da-bandeira-do-uruguai-fundo-uruguaio_847658-25.avif" alt="Bandeira do Uruguai" width="70" height="45">  
+                <img src="imagens e audio/Flag_of_Paraguay.svg" alt="Bandeira do Paraguai" width="70" height="45">  
+            </div>
+        </footer>
+    </div>
+    
+    <script src="carousel.js"></script>
+    <script src="forms.js"></script>
+</body>
+</html>
