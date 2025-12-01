@@ -110,7 +110,7 @@ class Carousel {
     }
     
     handleSwipe(startX, endX) {
-        const threshold = 50; // Mínimo de pixels para considerar um swipe
+        const threshold = 50; 
         const diff = startX - endX;
         
         if (Math.abs(diff) > threshold) {
@@ -123,7 +123,8 @@ class Carousel {
     }
 }
 
-// Inicializar o carrossel quando o DOM estiver pronto
+o
 document.addEventListener('DOMContentLoaded', () => {
     const carousel = new Carousel('.carousel-container');
+
 });
