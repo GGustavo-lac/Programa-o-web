@@ -56,7 +56,7 @@ function showMessage(message, type) {
     let messageDiv = document.querySelector('.form-message');
     
     if (!messageDiv) {
-        // Criar div de mensagem se não existir
+        
         messageDiv = document.createElement('div');
         messageDiv.className = 'form-message';
         const form = document.querySelector('form');
@@ -74,4 +74,5 @@ function hideMessage() {
     if (messageDiv) {
         messageDiv.style.display = 'none';
     }
+
 }
