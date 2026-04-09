@@ -1,6 +1,6 @@
 # 📌 Etec Zona Leste - Site Institucional
 
-![Print do site](Captura de tela 2026-04-09 152354.png)
+![texto alternativo](U)
 
 ## 📖 Sobre o projeto
 
