@@ -1,0 +1,124 @@
+<?php
+$pagina = <<<'HTML'
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etec Zona Leste | Notícias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="container cabecalho-conteudo">
+      <a class="marca" href="index.php">
+        <img class="marca-logo" src="arquivos/logo-etec.png" alt="Logo da Etec">
+      </a>
+
+      <nav class="navegacao">
+        <a href="index.php">Início</a>
+        <a href="instituicao.php">Instituição</a>
+        <a href="cursos.php">Cursos</a>
+        <a href="calendario.php">Calendário 2026</a>
+        <a class="ativo" href="noticias.php">Notícias</a>
+        <a href="contato.php">Contato</a>
+              <a href="gestao.php">Gestão</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="topo-pagina">
+      <div class="container">
+        <p class="kicker">Notícias</p>
+        <h1>Destaques e eventos da comunidade escolar</h1>
+        <p class="descricao-pagina">
+          Acompanhe notícias, eventos e comunicados institucionais da unidade.
+        </p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container noticias-grid">
+        <article class="noticia-card">
+          <img src="arquivos/imagens/feira-empreendedor.jpg" alt="Feira do Empreendedor na Etec Zona Leste">
+          <div class="noticia-texto">
+            <span class="categoria">Eventos</span>
+            <h3>Feira do Empreendedor 2026 se aproxima com expectativa de grande participação</h3>
+            <p>A comunidade escolar já se prepara para a Feira do Empreendedor 2026, que deve reunir apresentações, ideias de negócio, projetos e integração entre turmas e visitantes.</p>
+          </div>
+        </article>
+
+        <article class="noticia-card">
+          <img src="arquivos/imagens/sala-aula.jpeg" alt="Sala de aula da Etec Zona Leste">
+          <div class="noticia-texto">
+            <span class="categoria">Infraestrutura</span>
+            <h3>Espaços pedagógicos recebem melhorias para aulas práticas</h3>
+            <p>Ambientes de estudo e prática foram reorganizados para apoiar atividades técnicas e integradas.</p>
+          </div>
+        </article>
+
+        <article class="noticia-card">
+          <img src="arquivos/imagens/auditorio.jpeg" alt="Auditório da Etec Zona Leste">
+          <div class="noticia-texto">
+            <span class="categoria">Eventos</span>
+            <h3>Semana temática incentiva pesquisa, criatividade e protagonismo</h3>
+            <p>Programação contou com palestras, oficinas, apresentações e atividades interdisciplinares.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao secao-destaque">
+      <div class="container">
+        <div class="titulo-secao">
+          <p class="kicker">Comunicados</p>
+          <h2>Documentos e orientações da unidade</h2>
+        </div>
+
+        <div class="grade-cards grade-dupla">
+          <article class="card-info">
+            <h3>Comunicado 003 - Alunos e Ex-Alunos</h3>
+            <p>Arquivo em PDF com orientações e informações destinadas a alunos e ex-alunos da unidade.</p>
+            <a href="arquivos/documentos/comunicado-alunos-ex-alunos.pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a>
+          </article>
+
+          <article class="card-info">
+            <h3>Comunicado sobre e-mail institucional</h3>
+            <p>Consulte o comunicado com informações sobre acesso e uso do e-mail institucional.</p>
+            <a href="arquivos/documentos/comunicado-email-institucional.pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-grid">
+      <div>
+        <h4>Etec Zona Leste</h4>
+        <p>Blocos de notícias.</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <p><a href="calendario.php">Calendário 2026</a></p>
+        <p><a href="cursos.php">Cursos</a></p>
+        <p><a href="contato.php">Contato</a></p>
+      </div>
+      <div>
+        <h4>Unidade</h4>
+        <p>São Paulo/SP</p>
+        <p>Centro Paula Souza</p>
+        <p><a href="https://www.instagram.com/eteczonalesteoficial/" target="_blank" rel="noopener noreferrer">Instagram oficial</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+HTML;
+echo $pagina;
+?>
