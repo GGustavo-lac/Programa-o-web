@@ -19,7 +19,7 @@ O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulári
 
 ## 🖼️ Preview do projeto
 
-![Preview do site](./Capturadetela026-04-09152354.png)
+![Preview do site](Capturadetela026-04-09152354.png)
 
 ---
 
@@ -31,6 +31,3 @@ O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulári
 
 ---
 
-## 📌 Observações
-
-Projeto desenvolvido para fins educacionais.
