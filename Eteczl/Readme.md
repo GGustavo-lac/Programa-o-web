@@ -19,7 +19,7 @@ O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulári
 
 ## 🖼️ Preview do projeto
 
-![Preview do site](Eteczl/printindex.png)
+![Preview do site](./Eteczl/printindex.png)
 
 ---
 
