@@ -1,9 +1,36 @@
-## About
+# 💻 Portal ETEC - Projeto Web
 
-[![Screenshot](./Captura de tela 2026-04-09 152354.png)](./Captura de tela 2026-04-09 152354.png)
+## 📌 Sobre o projeto
 
-This is the existing content of the Readme.md file.
+Este projeto é uma recriação do portal institucional da ETEC, com múltiplas páginas e um layout inspirado no site original.
 
-## Video
+O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulários e interação com o usuário.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eteczl/Gravação de Tela 2026-04-09 152232.mp4" frameborder="0" allowfullscreen></iframe>
+---
+
+## 🚀 Funcionalidades
+
+* Navegação entre páginas
+* Layout inspirado no site oficial
+* Formulário funcional com PHP
+* Estrutura organizada
+
+---
+
+## 🖼️ Preview do projeto
+
+![Preview do site](./Capturadetela026-04-09152354.png)
+
+---
+
+## 🎥 Demonstração do projeto
+
+[▶️ Assistir demonstração](https://drive.google.com/file/d/1RUUhiteHiJ5CJsujUCg3LEr55P4XMuHh/view?usp=sharing)
+
+
+
+---
+
+## 📌 Observações
+
+Projeto desenvolvido para fins educacionais.
