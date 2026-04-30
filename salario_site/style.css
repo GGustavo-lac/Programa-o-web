@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: #111827;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+input {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+input[type="submit"], input[type="reset"] {
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background: #ef4444;
+}
