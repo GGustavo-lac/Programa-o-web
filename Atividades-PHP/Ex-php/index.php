@@ -80,7 +80,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
 
 <div class="grid">
 
-  <!-- ░░ EX 01 ░░ -->
+  <!-- EX 01 -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 01</span>
@@ -107,7 +107,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 02 ░░ -->
+  <!--  EX 02  -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 02</span>
@@ -137,7 +137,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 03 ░░ -->
+  <!-- EX 03 -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 03</span>
@@ -168,7 +168,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 05 ░░ -->
+  <!-- EX 05  -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 05</span>
@@ -194,7 +194,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 06 ░░ -->
+  <!--  EX 06 -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 06</span>
@@ -222,7 +222,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 07 ░░ -->
+  <!-- EX 07  -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 07</span>
@@ -251,7 +251,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 08 ░░ -->
+  <!--  EX 08 -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 08</span>
@@ -276,7 +276,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 09 ░░ -->
+  <!-- EX 09 -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 09</span>
@@ -306,7 +306,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 10 ░░ -->
+  <!--  EX 10  -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 10</span>
@@ -331,7 +331,7 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-  <!-- ░░ EX 11 ░░ -->
+  <!-- EX 11  -->
   <div class="card">
     <div class="card-head">
       <span class="ex-badge">EX 11</span>
@@ -368,6 +368,6 @@ if ($ex11_a !== null && $ex11_b !== null && $ex11_op !== null) {
     </div>
   </div>
 
-</div><!-- /grid -->
+</div>
 </body>
 </html>
