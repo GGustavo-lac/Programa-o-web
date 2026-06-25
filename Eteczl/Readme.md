@@ -4,7 +4,6 @@
 
 Este projeto é uma recriação do portal institucional da ETEC, com múltiplas páginas e um layout inspirado no site original.
 
-O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulários e interação com o usuário.
 
 ---
 
@@ -12,7 +11,7 @@ O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulári
 
 * Navegação entre páginas
 * Layout inspirado no site oficial
-* Formulário funcional com PHP
+* Formulário funcional com JS
 * Estrutura organizada
 
 ---
