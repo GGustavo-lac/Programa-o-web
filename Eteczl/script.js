@@ -1,17 +1,7 @@
-/* ============================================================
-   Etec Zona Leste — script.js
-   1. Menu hambúrguer (mobile)
-   2. Animações ao rolar (scroll reveal)
-   3. Validação do formulário de contato
-   4. Contador de estatísticas animado
-   ============================================================ */
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ----------------------------------------------------------
-     1. MENU HAMBÚRGUER
-     Injeta o botão no cabeçalho e alterna a classe .aberto
-     ---------------------------------------------------------- */
   const nav = document.querySelector('.navegacao');
   const cabecalhoConteudo = document.querySelector('.cabecalho-conteudo');
 
@@ -55,10 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  /* ----------------------------------------------------------
-     2. SCROLL REVEAL
-     Adiciona .visivel aos elementos quando entram na viewport
-     ---------------------------------------------------------- */
+
   const alvosReveal = document.querySelectorAll(
     '.card-info, .noticia-card, .bloco-texto, .painel, ' +
     '.hero-texto, .hero-card, .galeria-institucional, ' +
@@ -67,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   alvosReveal.forEach((el, i) => {
     el.classList.add('reveal');
-    // Escalonamento sutil entre cards da mesma fileira
+
     const delay = (i % 4) * 80;
     el.style.transitionDelay = delay + 'ms';
   });
@@ -84,9 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
   alvosReveal.forEach(el => observador.observe(el));
 
 
-  /* ----------------------------------------------------------
-     3. VALIDAÇÃO DO FORMULÁRIO DE CONTATO
-     ---------------------------------------------------------- */
+
   const formulario = document.querySelector('.formulario');
 
   if (formulario) {
@@ -193,10 +178,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  /* ----------------------------------------------------------
-     4. CONTADOR DE ESTATÍSTICAS ANIMADO
-     Injeta a seção de stats na home (só na index)
-     ---------------------------------------------------------- */
   const hero = document.querySelector('.hero');
   const isHome = !!hero;
 
@@ -256,4 +237,4 @@ document.addEventListener('DOMContentLoaded', () => {
     obsStats.observe(secaoStats);
   }
 
-}); // fim DOMContentLoaded
+}); 
