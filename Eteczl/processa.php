@@ -64,5 +64,6 @@ $mensagem = "Obrigado {$nome}, por entrar em contato. Enviaremos uma mensagem pa
       </div>
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
