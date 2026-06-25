@@ -31,10 +31,7 @@ O sistema utiliza PHP para adicionar funcionalidades dinâmicas, como formulári
 
 ---
 
-## 🎥 Demonstração do Formulario
+##  📝  Demonstração do Formulario
 
-<video src="Gravação de Tela 2026-06-25 172757.mp4" width="100%" controls>
-  
-</video>
-
+[▶️ Assistir demonstração do formulario](https://drive.google.com/file/d/1RUUhiteHiJ5CJsujUCg3LEr55P4XMuHh/view?usp=sharing)
 
