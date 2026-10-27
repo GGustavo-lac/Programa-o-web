@@ -37,26 +37,7 @@ Estado:     SP
 └── README.md
 ```
 
-## Como executar
 
-Requisitos: PHP 8.0 ou superior com a extensão cURL habilitada.
-
-```bash
-git clone <url-do-repositorio>
-cd <pasta-do-projeto>
-php -S localhost:8000
-```
-
-Depois abra http://localhost:8000 no navegador. Com XAMPP, copie a pasta para `htdocs` e acesse `http://localhost/<pasta-do-projeto>`.
-
-> Se aparecer erro de certificado SSL no Windows, aponte a opção `curl.cainfo` do `php.ini` para um arquivo `cacert.pem`.
-
-## Tratamento de erros
-
-- CEP com quantidade de dígitos diferente de 8
-- CEP inexistente (o ViaCEP responde `{"erro": true}`)
-- Falha de rede ou API fora do ar
-- Toda saída é escapada com `htmlspecialchars()` para evitar XSS
 
 ## Vídeo de demonstração
 
@@ -64,4 +45,4 @@ Depois abra http://localhost:8000 no navegador. Com XAMPP, copie a pasta para `h
 
 ## Autor
 
-Gustavo
+Gustavo Lacerda
